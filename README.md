@@ -15,13 +15,13 @@ class {'mounts':
 ## Parameters
 
 Module takes one variable mounts which is a hash of hashes.
-Then these hashes are used as create\_resources.
-You can apply following hash keys:
-    device - what to mount required, no default
-    target - path to fstab file, default: /etc/fstab
-    fstype - type of fs, required, no default
-    ensure - attribute for mount, default: mounted
-    options - mount options, default: defaults
+Then these hashes are used as create\_resources.  
+You can apply following hash keys:  
+ - device - what to mount required, no default
+ - target - path to fstab file, default: /etc/fstab
+ - fstype - type of fs, required, no default
+ - ensure - attribute for mount, default: mounted
+ - options - mount options, default: defaults
 
-For more information abount mount please refer to:
-(https://docs.puppetlabs.com/references/latest/type.html#mount)
+For more information abount mount please refer to:  
+https://docs.puppetlabs.com/references/latest/type.html#mount
