@@ -7,7 +7,7 @@ Puppet module to mount several filesystems
 class {'mounts':
     mounts => {
         '/opt/check' => {device => '/tmp', fstype => 'none', options => 'bind'},
-        '/var' => {device => '/dev/sda1, fstype => 'ext4', options => 'defaults', ensure => 'absent'},
+        '/var' => {device => '/dev/sda1', fstype => 'ext4', options => 'defaults', ensure => 'absent'},
     }
 }
 ```
