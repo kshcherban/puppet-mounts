@@ -3,7 +3,7 @@ Puppet module to mount several filesystems
 
 ## Example of include
 
-```
+```puppet
 class {'mounts':
     mounts => {
         '/opt/check' => {device => '/tmp', fstype => 'none', options => 'bind'},
